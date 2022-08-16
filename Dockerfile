@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install wget -y && \
     echo "\n" && echo "### Note client token ###" && cat server-entry.dat ; echo && echo "### Note client token ###"
 
 WORKDIR /opt/psiphond-server/
-CMD [  "./psiphond", "run"]
+CMD [ "./psiphond", "run" ]
