@@ -1,4 +1,5 @@
-FROM ubuntu:22.10
+FROM ubuntu:kinetic
+
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ="Europe/Berlin"
 
