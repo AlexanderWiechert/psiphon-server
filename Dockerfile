@@ -1,4 +1,4 @@
-FROM ubuntu:kinetic
+FROM ubuntu:lunar-20230615
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ="Europe/Berlin"
