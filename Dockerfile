@@ -1,4 +1,4 @@
-FROM ubuntu:lunar-20230615
+FROM ubuntu:lunar
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ="Europe/Berlin"
